@@ -1,25 +1,3 @@
-// console.log('shubam is typing');
-
-// function PrintOnUI(data){
-// let mydiv = document.createElement('p');
-// mydiv.textContent=`${data?.main?.temp.toFixed(2)} This is temp of ${city}`;
-// document.body.appendChild(mydiv);
-// }
-
-// let city="Belagavi";
-// let APIkey='d13d16157c2c02a010c24f60755b285a';
-
-// async function getapi(){
-// let response=await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${APIkey}&units=metric`);
-// let data = await response.json();
-// PrintOnUI(data);
-// // console.log(data);
-// }
-
-// let target=document.querySelector('#gofor');
-// target.addEventListener('click',getapi);
-
-
 const usertab = document.querySelector("[data-userweather]");
 const searchtab = document.querySelector("[data-searchweather]");
 const usercontainer = document.querySelector(".weathercontainer");
